@@ -1,0 +1,39 @@
+input:focus {
+  outline: none;
+  border: none;
+}
+input {
+  z-index: 1;
+  position: relative;
+  background: transparent;
+}
+
+.inp-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.inp-container label,
+.appear-label label {
+  position: absolute;
+  left: 13%;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+/* الحالة الافتراضية (اللي فيها label تحت) */
+.inp-container label {
+  top: 100%;
+  color: #999;
+}
+
+/* الحالة اللي فيها label طالع فوق */
+.appear-label label {
+  top: -50%;
+  color: #1ABC9C;
+}
+button {
+  width: fit-content;
+
+}

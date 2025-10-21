@@ -1,0 +1,18 @@
+.navbar{
+    background-color: #2C3E50;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-link{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.active{
+    background-color: #1ABC9C;
+    border-radius: 10px;
+    width: fit-content; 
+    padding: 10px 10px;
+    transition: all 0.3s ease-in-out;
+}
