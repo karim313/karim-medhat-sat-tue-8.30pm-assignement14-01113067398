@@ -9,14 +9,14 @@ export default function Portfolio() {
   useEffect(() => {
     document.title = "Portfolio"; // 👈 change title
   }, []);
-  const [images, setImages] = useState([
-    { src: "../../public/images/poert1.png" },
-    { src: "../../public/images/port2.png" },
-    { src: "../../public/images/port3.png" },
-    { src: "../../public/images/poert1.png" },
-    { src: "../../public/images/port2.png" },
-    { src: "../../public/images/port3.png" },
-  ]);
+const [images, setImages] = useState([
+  { src: "/images/poert1.png" },
+  { src: "/images/port2.png" },
+  { src: "/images/port3.png" },
+  { src: "/images/poert1.png" },
+  { src: "/images/port2.png" },
+  { src: "/images/port3.png" },
+]);
 
   const [showModel, setShowModel] = useState(false);
   const [mysrc, setMySrc] = useState('');
